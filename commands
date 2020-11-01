@@ -1,0 +1,5 @@
+docker image build -t my:1.0 .
+docker container run -it --publish 8081:8080 my:1.0
+
+http://localhost:8081
+
